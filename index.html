@@ -1,28 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>maseckt - About me</title>
-    <script src="js/animations.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maseckt</title>
+    <script src="js/music.js" defer></script>
+    <script src="js/background.js" defer></script>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/music.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1 class="title">maseckt</h1>
-
-    <div class="button-container">
-        <a href="https://github.com/maseckt" target="_blank" rel="noopener"><button class="mainbutton github">github</button></a>
-        <a href="https://discord.com/users/566218908936437770" target="_blank" rel="noopener"><button class="mainbutton discord">discord</button></a>
-        <a href="https://spigotmc.ru/members/26853" target="_blank" rel="noopener"><button class="mainbutton spigot">spigotmc.ru</button></a>
-        <a href="https://discord.gg/abNBqQvwYM" target="_blank" rel="noopener"><button class="mainbutton discords">discord server</button></a>
-    </div>
-
-    <div class="footer">
-        <p>Сделано для себя любимого</p>
-        <p>© Copyright <a href="#">maseckt</a> 2024</p>
+    <div class="container">
+        <div class="main">
+            <img src="img/avatar.gif" alt="Avatar" class="avatar">
+            <div class="title">maseckt</div>
+            <div class="description">Java.. 💖 Russia..</div>
+        </div>
+        <div class="links">
+            <div class="link-container">
+                <a href="https://discord.com/users/566218908936437770" class="link-item">
+                    <img src="img/discord.webp" alt="Discord" class="link-icon">
+                    <span class="link-text">Discord</span>
+                </a>
+            </div>
+            <div class="link-container">
+                <a href="https://github.com/maseckt" class="link-item">
+                    <img src="img/github.png" alt="GitHub" class="link-icon">
+                    <span class="link-text">GitHub</span>
+                </a>
+            </div>
+            <div class="link-container">
+                <a href="https://discord.gg/abNBqQvwYM" class="link-item">
+                    <img src="img/discord.webp" alt="Server" class="link-icon">
+                    <span class="link-text">Server</span>
+                </a>
+            </div>
+        </div>
+        <div class="projects">
+            <div class="projects-title">Проекты</div>
+            <div class="projects-soon">Перейти (soon)</div>
+        </div>
+        <footer class="footer">
+            © maseckt - 2024
+        </footer>        
     </div>
 </body>
 </html>
