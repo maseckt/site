@@ -1,3 +1,2 @@
-# [maseckt.github.io](https://maseckt.svinarhiya.fun/)
-
-Мой простой сайт
+# [maseckt.github.io](maseckt.pro)
+Мой веб-сайт
